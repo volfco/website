@@ -1,0 +1,41 @@
+baseURL = "https://web.volf.co"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "volf.co"
+subtitle = "something something"
+theme = "cactus"
+enableGitInfo = true
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+
+[author]
+  name = "Colum McGaley"
+
+
+[taxonomies]
+  tag = "tags"
+  category = ""  # Categories are disabled by default.
+
+[params]
+  colortheme = "dark"
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
