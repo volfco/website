@@ -1,16 +1,28 @@
 baseURL = "https://web.volf.co"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "volf.co"
-subtitle = "something something"
+title = "web.volf.co"
+subtitle = "i am. musing of colum mcgaley"
 theme = "cactus"
 enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
+paginate = "10"
 
 [author]
   name = "Colum McGaley"
 
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
 
 [taxonomies]
   tag = "tags"
@@ -18,6 +30,19 @@ pygmentsUseClasses  = true
 
 [params]
   colortheme = "dark"
+  rss = true
+  mathjax = true
+  authorbox = true
+
+
+[params.widgets]
+  search = true
+[[params.social]]
+  name = "github"
+  link = "https://github.com/volfco"
+[[params.social]]
+  name = "linkedin"
+  link = "https://www.linkedin.com/company/github/"
 
 [menu]
 [[menu.main]]
