@@ -2,7 +2,7 @@ baseURL = "https://web.volf.co"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "web.volf.co"
-subtitle = "i am. musing of colum mcgaley"
+subtitle = "musing of colum mcgaley"
 theme = "cactus"
 enableGitInfo = true
 pygmentsCodefences  = true
@@ -33,7 +33,6 @@ paginate = "10"
   rss = true
   mathjax = true
   authorbox = true
-
 
 [params.widgets]
   search = true
