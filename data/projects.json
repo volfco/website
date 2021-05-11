@@ -1,9 +1,14 @@
 {
   "list": [
     {
-      "name":"ZkStruct",
-      "url":"https://github.com/volfco/zkstruct/",
-      "desc":"Shared State using ZooKeeper and Rust."
+      "name": "ZkMQ",
+      "url": "https://github.com/volfco/zkmq",
+      "desc": "ZkMQ. A simple message queue using Rust and ZooKeeper"
+    },
+    {
+      "name": "ZkStruct",
+      "url": "https://github.com/volfco/zkstruct/",
+      "desc": "Shared State using ZooKeeper and Rust."
     }
   ]
 }
