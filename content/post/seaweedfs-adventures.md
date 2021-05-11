@@ -1,3 +1,12 @@
+---
+title: "Gitall"
+date: 2018-09-29T11:36:33+08:00
+draft: true
+tags: 
+  - gitall
+  - project
+---
+
 # Adventures in Homelab Storage
 
 Homelabs are fun, if you're into that kind of thing. 
