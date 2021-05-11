@@ -21,5 +21,3 @@ fields:
   type: tag_list
   default: []
   label: Post Tags
-pages:
-- content/post/the-slew-of-3-2-screen-laptops.md
