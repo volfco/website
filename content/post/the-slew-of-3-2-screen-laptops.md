@@ -1,6 +1,5 @@
 +++
 date = 2021-05-11T02:42:52Z
-draft = true
 tags = ["hardware", "computing", "laptops"]
 title = "The slew of 3:2 Screen Laptops"
 
