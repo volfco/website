@@ -52,7 +52,7 @@ There is some work to add in full core scheduling, but at the time of this writi
 
 Kubernetes solves the issues Nomad has when it comes to resource allocation, but has a new set of issues.
 
-The big one is complexity of the system in part due to the amount of batteries that are included.
+The big one is complexity of the system, and building on top of it. If you use kubernetes, you really need to go all in to properly take advantage of it.
 
 ### Mesosphere
 
@@ -61,6 +61,12 @@ I avoided Mesos for two main reasons. The first is Indeed's experiences with Mes
 The second is the lack of developer documentation out there. For this project, I would be interfacing with internal APIs to add in functionality, and the docs leave room for improvement. The code quality is good, so learning it is not impossible- but it would be an up hill battle to get it working
 
 But. But but but. The way I'm designing this product allows for any of the above schedulers to be used. I'll go into this below.
+
+### Others
+
+I want to look at using SLURM down the road, 
+
+[https://en.wikipedia.org/wiki/Comparison_of_cluster_software](https://en.wikipedia.org/wiki/Comparison_of_cluster_software "https://en.wikipedia.org/wiki/Comparison_of_cluster_software")
 
 # First Steps
 
