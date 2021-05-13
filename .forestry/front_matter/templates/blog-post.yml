@@ -21,3 +21,5 @@ fields:
   type: tag_list
   default: []
   label: Post Tags
+pages:
+- content/posts/building-my-cloud.one-step-at-a-time.md
